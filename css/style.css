@@ -1,0 +1,255 @@
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic&display=swap&subset=cyrillic-ext");
+
+
+
+
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}*/
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+/* ---------------- */
+
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.italic{
+	font-style: italic;
+	font-weight: 600;
+	
+}
+
+.fw{
+	font-weight: 700;
+	text-shadow: -4px 4px 3px #666, 1px -1px 2px #000;
+
+}
+
+p{
+	color: #303030;
+}
+
+h2{
+	text-decoration: underline;
+	font-size: 26px;
+	font-weight: 700;
+	text-indent:+1em;
+	letter-spacing: 1px;
+}
+
+h3{
+	font-size: 22px;
+	font-weight: 600;
+	word-spacing: 4px;
+	text-shadow: -4px 4px 3px #666, 1px -1px 2px #000;
+}
+.row__title{
+	text-align: left;
+	background-color: #fcdcdc;
+}
+
+.row__subtitle{
+	text-align: right;
+	background-color: rgb(248, 237, 223);
+}
+
+.content__image{
+	text-align: center;
+	background-color:#efefef;
+}
+
+
+
+/* Header */
+.header{
+	text-align: center;
+	/*background-color: #fcdcdc;*/
+	
+}
+
+.header__title span{
+	text-transform: uppercase;
+	color: #71bf44;
+}
+
+.header__title{
+	font-size: 32px;
+	color: #bfd730;
+	font-weight: 900;
+	text-shadow: -4px 4px 3px #666, 1px -1px 2px #000;
+	
+}
+.header__subtitle{
+	line-height: 40px;
+	color: #303030;
+	text-decoration: none;
+	font-style: italic;
+}
+
+.header__menu{
+	line-height: 20px;
+}
+
+.header__menu a{
+	font-size: 18px;
+}
+
+.menu__item-green{
+	color: #71bf44;
+}
+
+.header__menu-top {
+	background-color: #f5f5f5;
+	
+}
+
+.header__menu-bottom {
+	background-color: #efefef;
+}
+
+
+
+
+/* Content top*/
+
+
+.content__top p{
+	text-align: center;
+	background-color: rgb(248, 237, 223);
+}
+
+
+/*Fonts */
+.fonts__title{
+	color:#71bf44;
+}
+
+.fonts__subtitle{
+	color: #bfd730;
+}
+
+.fonts__image{
+	background-color:#71bf44;
+	padding: 2px;
+}
+
+
+
+
+/* Web fonts */
+.web__title{
+	color: #71bf44;
+}
+
+.web__subtitle{
+	color: #bfd730;
+}
+
+.web__list li{
+	color: #303030;
+}
+
+/* Google fonts */
+
+.google__title{
+	color: #71bf44;
+}
+
+.google__list li{
+	color: #303030;
+}
+
+
+/* Color fonts */
+
+.color__title.color{
+	color: #3E8988
+}
+.color__image{
+	background-color: #71bf44;
+	padding: 2px;
+}
+
+.color{
+	color: #3E8988;
+	font-weight: 600;
+}
+
+
+
+/* Font size */
+
+.size__title{
+	color: #71bf44;
+}
+
+.size__subtitle{
+	color: #bfd730;
+}
+
+.size__image{
+	text-align: center;
+	background-color:#efefef;
+}
+
+.pixel__image{
+	background-color: #71bf44;
+	padding: 2px;
+}
+
+/* Format words */
+
+.format__title{
+	color: #71bf44;
+}
+
+.format__subtitle{
+	color: #bfd730;
+}
+
+
+
+/* Shadow */
+
+.shadow__title{
+	color: #71bf44;
+}
+
+.shadow__image{
+	background-color: #71bf44;
+	padding: 2px;
+}
+
+.shadow{
+	text-shadow: -4px 4px 3px #666, 1px -1px 2px #000;
+	text-decoration: none;
+}
